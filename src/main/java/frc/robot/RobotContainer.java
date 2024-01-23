@@ -43,7 +43,6 @@ public class RobotContainer {
     public final Intake m_intake = new Intake();
     public final Conveyor m_conveyor = new Conveyor();
     public final SwerveDriveSubsystem m_swerveDriveSubsystem = new SwerveDriveSubsystem();
-    public final SwerveDriveModule m_swerveDriveModule = new SwerveDriveModule();
 
 // Joysticks
 private final XboxController subStick = new XboxController(1);
