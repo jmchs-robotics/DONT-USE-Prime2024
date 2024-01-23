@@ -7,6 +7,7 @@ import com.revrobotics.CANSparkLowLevel.MotorType;
 import edu.wpi.first.wpilibj.SPI;
 import edu.wpi.first.math.controller.PIDController;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
+import edu.wpi.first.wpilibj2.command.SubsystemBase;
 import edu.wpi.first.math.MathUtil;
 import frc.robot.Constants.DrivetrainConstants;
 
@@ -17,7 +18,7 @@ import static frc.robot.Constants.Module1;
 import static frc.robot.Constants.Module2;
 import static frc.robot.Constants.Module3;
 
-public class SwerveDriveSubsystem {
+public class SwerveDriveSubsystem extends SubsystemBase {
     // Macro PIDControllers for new synchronous structure
     // 1/5/2020
     

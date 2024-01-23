@@ -64,7 +64,6 @@ private final XboxController driveStick = new XboxController(0);
 
     // SmartDashboard Buttons
     SmartDashboard.putData("Autonomous Command", new AutonomousCommand());
-    SmartDashboard.putData("DefaultSwerveCommand", new DefaultSwerveCommand());
     SmartDashboard.putData("DefaultConveyorCommand", new DefaultConveyorCommand());
     SmartDashboard.putData("DefaultIntakeCommand", new DefaultIntakeCommand());
     SmartDashboard.putData("DefaultShooterCommand", new DefaultShooterCommand());
